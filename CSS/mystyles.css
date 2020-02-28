@@ -706,6 +706,9 @@ footer.nb-footer {
     
 @media (max-width: 700px) {
     
+    .navheader .col-sm-12 p {
+        font-size: 13px;
+    }
     .package {
         padding-bottom: 0px;
     }
