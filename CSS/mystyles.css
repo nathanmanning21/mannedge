@@ -661,6 +661,16 @@ footer.nb-footer {
 }
 
 
+.image1 {
+    width: 100%;
+    height: auto;
+    margin-top: -5px;
+}
+
+.image2 {
+    display: none;
+}
+
 @media (max-width: 700px) and (min-width: 650px){
 
 
@@ -672,6 +682,22 @@ footer.nb-footer {
 }
     
 @media (max-width: 700px) {
+
+    .container {
+        padding-right: 31px;
+        padding-left: 31px;
+    }
+    
+    .image2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: -10px;
+    }
+
+    .image1 {
+        display: none;
+    }
     .col-sm-6 {
         padding-bottom: 0px;
     }
@@ -716,6 +742,11 @@ footer.nb-footer {
     .ourworksites .col-sm-6 img {
         height: 500px;
         width: 100%;
+        margin-top: -50px;
+    }
+
+    footer.nb-footer .copyright p  {
+        text-align: center;
         margin-top: -50px;
     }
 
