@@ -661,9 +661,17 @@ footer.nb-footer {
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 700px) and (min-width: 650px){
 
 
+    .ourworksites .col-sm-6 img {
+        height: 500px;
+        width: 100%;
+        margin-top: -50px;
+    }
+}
+    
+@media (max-width: 700px) {
     .col-sm-6 {
         padding-bottom: 0px;
     }
@@ -710,9 +718,14 @@ footer.nb-footer {
         width: 100%;
         margin-top: -50px;
     }
-}
-    
 
+}
+
+@media (max-width: 520px){
+    .ourworksites .col-sm-6 img {
+        height: 420px;
+        margin-top: 25px;
+    }
 
 
 /* Graphic design logos page */
