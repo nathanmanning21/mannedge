@@ -721,7 +721,11 @@ footer.nb-footer {
 
 @media (max-width : 410px){
     .col-lg-6 {
-        height: 370px;
+        height: 400px;;
+    }
+    
+    .col-lg-6 p {
+        text-align: left;
     }
 }
 
