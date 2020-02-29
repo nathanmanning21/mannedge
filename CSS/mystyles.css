@@ -502,9 +502,11 @@
 }
 
 /*GRAPHIC DESIGN*/
-.package {
- 
-    padding-bottom: 150px;
+
+.row2 {
+
+    margin-bottom: 50px;
+
 }
 .col-lg-6 {
     background-color: #454545;
@@ -512,6 +514,8 @@
     padding-right: 50px;
     padding-bottom: 50px;
     margin-top: -20px;
+    margin-bottom: 50px;
+    height: 293px;
 }
 .col-lg-6 h1{
     padding-top: 30px;
@@ -579,7 +583,14 @@
     margin-top: 50px;
 }
 
-
+.ourworksites a {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
+    font-weight: bold;
+    font-family: 'Montserrat' ;
+}
 
 .ourworksites .col-sm-6 h1{
     text-align: left;
@@ -695,13 +706,40 @@ footer.nb-footer {
 }
 
 @media (max-width: 700px) and (min-width: 650px){
-
-
     .ourworksites .col-sm-6 img {
         height: 500px;
         width: 100%;
         margin-top: -50px;
     }
+}
+
+@media (max-width : 1201px){
+    .col-lg-6 {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width : 410px){
+    .col-lg-6 {
+        height: 350px;
+    }
+}
+
+@media (max-width: 523px){
+    .logotemplate {
+        margin-top: 33px;
+    }
+
+    .logotemplate .col-lg-3 {
+        margin-top: 93px;
+        margin-bottom: -120px;
+    }
+  
+}
+
+@media (max-width: 527px){
+    .logotemplate {
+        margin-bottom: 121px;
 }
     
 @media (max-width: 700px) {
